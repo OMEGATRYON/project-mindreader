@@ -1,3 +1,10 @@
+
+
+
+.linear-grading {
+  background: linear-gradient(cyan, blue, rgb(161, 243, 161));
+}
+
 .red {
   background-color: darkred;
   color: white;
@@ -34,4 +41,8 @@
 .gray {
   background-color: darkslategray;
   color: white;
+}
+.text-center{
+    font-size: 65px;
+
 }
