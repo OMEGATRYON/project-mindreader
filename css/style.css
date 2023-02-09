@@ -1,7 +1,37 @@
-.hidden1 {
-    display: none;
-  }
+.red {
+  background-color: darkred;
+  color: white;
+}
 
-.hidden2 {
-    display: none;
-  }
+.orange {
+  background-color: darkorange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: darkgreen;
+  color: white;
+}
+
+.blue {
+  background-color: navy;
+  color: white;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.gray {
+  background-color: darkslategray;
+  color: white;
+}
