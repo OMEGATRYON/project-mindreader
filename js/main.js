@@ -1,11 +1,12 @@
 let state = {
-    symbols: ['!', '@', '#', '$'. '%', '^', '&', '*', '('],
+    symbols: ['!', '@', '#', '$', '%', '^', '&', '*', '('],
     currentPage: 1,
-    pages = [
+    pages : [
         {
           headerText: "I can read your mind",
           paragraphText: "",
-          nextButtonText: ""
+          nextButtonText: "",
+          page: 1,
         },
         {
           headerText: "Pick a number between 01-99",
@@ -27,11 +28,13 @@ let state = {
             paragraphText: "Find your new number. Note the symbol thats by the number.",
             nextButtonText: "REVEAL"
         },
-        {
-            headerText: create99Symbols(),
-            paragraphText: "",
-            nextButtonText: ""
-        },
+        
     ]
+
+}
+
+
+
+
 }
 
